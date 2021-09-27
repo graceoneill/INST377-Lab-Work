@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+ 
+  .wrapper {
+    display:flex;
+    flex-direction: column;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    margin:10px;
+  }
+
+  .title-container {
+    color: rgb(0, 0, 0);
+    background-color:rgba(0,139, 139, 1);  /* Blue */
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .title {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .mainPage {
+    margin-left: 20px;
+  }
+
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+ .photo-grid-container .carousel {
+    overflow: hidden;
+    max-width: 1000px;
+    position: relative;
+    }
+
+ .photo-grid-container .carousel .carousel_item,
+ .photo-grid-container .carousel .carousel_item--hidden {
+    display: none;
+    } 
+  
+  .photo-grid-container .carousel .carousel_item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .photo-grid-container .carousel .carousel_item--visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+  }
+
+  .photo-grid-container .carousel_actions {
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  .photo-grid-container .carousel_actions button {
+    border-radius: 6px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+
+  .photo-grid-container .carousel_actions button:focus {
+    border: 2px solid #0099CC;
+    border-width:1px;
+    border-color: blue;
+    background-color: orange;
+  }
+
+
+  @keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: opacity linear;
+    }
+  }
+
+.MyGithub,
+.GroupProjectlink {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+  }
