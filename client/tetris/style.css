@@ -8,7 +8,7 @@
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: coral;
   }
   
   .grid div {
@@ -17,7 +17,7 @@
   }
   
   .tetromino {
-    background-color: blue;
+    background-color: skyblue;
   }
   
   
@@ -27,7 +27,7 @@
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: coral;
   }
   
   .mini-grid div {
