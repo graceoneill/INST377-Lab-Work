@@ -11,7 +11,7 @@
   body {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 30px;
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
         ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
     background-color:thistle;
@@ -21,11 +21,16 @@
   
   .wrapper {
     display: flex;
+    background-color: thistle;
   }
   
   .container {
     max-width: 960px;
     margin-top: 25px;
+  }
+
+  .columns {
+    background-color: thistle;
   }
 
   ul {
