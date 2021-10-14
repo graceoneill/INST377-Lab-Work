@@ -1,0 +1,43 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+        ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    background-color:thistle;
+  }
+  
+  /* Page Layout */
+  
+  .wrapper {
+    display: flex;
+    background-color: thistle;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin-top: 25px;
+  }
+
+  .columns {
+    background-color: thistle;
+  }
+
+  ul {
+    list-style-type: circle;
+    }
+
+ #mapid { 
+    height: 400px; 
+    width: 400px;
+    }
