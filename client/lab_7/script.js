@@ -1,5 +1,5 @@
 
-const mymap = L.map('mapid').setView([38.83986, -76.941642], 11);
+const mymap = L.map('mapid').setView([38.83986, -76.941642], 10);
 
 
 function mapInit() {
